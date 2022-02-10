@@ -45,6 +45,7 @@ public class EmployeeController {
 
     return ResponseEntity.ok(updateEmployee);
     }
+    //delete mapping
 
     @DeleteMapping("{id}")
     public ResponseEntity<HttpStatus> deleteEmployee(@PathVariable long id){
